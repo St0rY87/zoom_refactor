@@ -123,8 +123,12 @@
    ========================================== */
 @media (max-width: 768px) {
   .video-container {
-    padding: 10px 10px 100px;
+    padding: 10px 10px 30px;
     height: 100%;
+  }
+
+   .main-video {
+     /* outline: 1px solid red; */
   }
 
   /* Controls-bar поверх видео — абсолютное позиционирование уже есть,
@@ -134,7 +138,7 @@
     border-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(12px);
     /* bottom: 80px; */
-    margin-bottom: 0;
+    margin-bottom: 18px;
     padding-bottom: 12px;
   }
 
