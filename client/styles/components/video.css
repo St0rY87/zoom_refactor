@@ -21,6 +21,7 @@
   display: block;
   object-fit: contain;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 /* PiP */
@@ -113,9 +114,7 @@
     display: none;
   }
 
-  .main-video {
-     object-fit: cover;
-  }
+
 }
 
 /* ==========================================
@@ -123,12 +122,12 @@
    ========================================== */
 @media (max-width: 768px) {
   .video-container {
-    padding: 10px 10px 30px;
+    padding: 0px 0px 30px;
     height: 100%;
   }
 
    .main-video {
-     /* outline: 1px solid red; */
+      border-radius: 0px;
   }
 
   /* Controls-bar поверх видео — абсолютное позиционирование уже есть,
@@ -138,7 +137,7 @@
     border-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(12px);
     /* bottom: 80px; */
-    margin-bottom: 18px;
+    margin-bottom: 17px;
     padding-bottom: 12px;
   }
 
